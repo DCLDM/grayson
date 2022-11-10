@@ -1,0 +1,47 @@
+/* 
+
+существуют 3 вида основных селекторов 1) тег 2)class 3)id
+
+selector{
+    свойство: значение: 
+    свойство: значение: 
+    свойство: значение: 
+}
+* - спец. селектор который делает подключение ко всем тэгам на сайте
+*/
+*{
+    margin: 0;/* внешний отступ */
+    padding: 0;/* внутренний отступ */
+}
+h2{
+    color: rgb(60, 255, 0);
+    background: black;
+    margin: 30px 100px;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 101px;
+    font-size: 50px;
+}
+.title{
+    color: rgb(255, 255, 255);
+    background: url(../images/111.jpg)no-repeat center /cover;
+    width: 600px;
+    margin: 0 auto;
+    height: 300px;
+    
+}
+img{
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    border: 12px double rgb(77, 77, 150);
+    border-radius: 25%;
+}
+.box{
+    text-align: center;
+    margin-top: 30px;
+}
+body{
+    background: url(../images/111.jpg) no-repeat center /cover
+    
+}

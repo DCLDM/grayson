@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(32, 32, 32);
+    color: rgb(0, 255, 128);
+}
+
+/* 
+    display flex - включает нашу технологию flex-box и все дочерние 
+    элементы ставит в ряд
+    flex-wrap - заставляет все дочерние эл. принять свои оригинальные размеры
+    
+
+*/
+
+.container{
+    width: 1000px;
+    height: 900px;
+    border: 1px solid rgb(30, 255, 0);
+    margin: 30px auto;
+    display: flex; 
+    gap: 20px;
+    
+}
+.item{
+    width: 250px;
+    height: 150px;
+    border: 1px solid rgb(255, 0, 140);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+span{
+    background: rgb(0, 0, 0);
+    color: rgb(255, 0, 191);
+    
+}
